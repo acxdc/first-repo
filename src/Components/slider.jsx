@@ -19,7 +19,6 @@ export default function ContinuousSlider() {
         <Slider aria-label="Volume" value={value} onChange={handleChange} />
         <VolumeUp />
       </Stack>
-      <Slider disabled defaultValue={30} aria-label="Disabled slider" />
     </Box>
   );
 }
